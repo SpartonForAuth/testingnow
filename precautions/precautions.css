@@ -1,8 +1,9 @@
+
 body{
-   background-color:red;
+    
 }
 .precautions-section{
-    width:100%
+    width:100%;
 }
 .precaution-box{
     padding:0 2%;
@@ -51,3 +52,51 @@ body{
     list-style: none;
 }
 
+
+@media only screen and (min-width:1200px) {
+    
+}
+/*potrait mode for tabs*/
+@media only screen and (max-width:1023px) {
+    *{
+        font-size:15px;
+    }
+    .precautions-section{
+        padding-top:20px;
+}
+/*tabs*/
+@media only screen and (max-width:767px) {
+    
+}
+/*normal phones*/
+@media only screen and (max-width:480px) {
+    *{
+        font-size:15px;
+    }
+    body{
+        margin-right:-1px;
+    }
+}
+
+    
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+/*
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+*/
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
