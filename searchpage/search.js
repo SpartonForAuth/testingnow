@@ -13,7 +13,6 @@ let countryname = document.querySelector(".country-name");
 let loader = document.querySelector(".loading-gif")
 
 loader.classList.add("hide-all")
-
 row.classList.add("hide-all");
 countryname.classList.add("hide-all")
 
@@ -57,7 +56,7 @@ let searchcountry = (country) => {
 
                 input.value = ""
                 countryname.textContent = country.toUpperCase()
-                input.focus()
+//                input.focus()
             }
 
 

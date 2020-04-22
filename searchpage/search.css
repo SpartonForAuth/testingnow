@@ -1,6 +1,10 @@
 .info-section .row{
     width:90%;
 }
+
+.info-section {
+    background: url(<img src="https://www.countryflags.io/:AE/:style/:size.png">);
+}
 form{
     width: 80%;
     border-radius: 10px;
@@ -29,7 +33,7 @@ input::-webkit-calendar-picker-indicator {
 }
 .heading{
     margin-top:20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .country-name{
