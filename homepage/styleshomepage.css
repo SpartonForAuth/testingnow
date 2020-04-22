@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -160,7 +160,7 @@ footer p {
         font-size:15px;
     }
     .navul {
-        font-size: 180%;
+        font-size: 130%;
     }
     .info-card {
     width: 300px;
