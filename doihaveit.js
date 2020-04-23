@@ -248,4 +248,4 @@ let start = () => {
 
 setTimeout(() => {
     start();
-}, 4000)
+}, 5000)
